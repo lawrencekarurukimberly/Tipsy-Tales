@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+}
+nav li{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav{
+    background-color: rgb(41, 131, 81);
+    height: 30px;
+}
+.pishi a{
+    color: brown;
+    font-style: oblique;
+}
+h1{
+    text-align: center;
+    font-style: oblique;
+    text-shadow: 2px 2px 5px green;;
+}
+#intro h2, h3{
+    text-align: center;
+    font-style: oblique;
+    text-shadow: 2px 2px 5px green;
+}
+#intro p{
+    text-align: center;
+    font-style: italic;
+    font-size:large;
+}
+#top {
+    margin: 1px;
+    border: 0px;
+    padding: 10px;
+    background-color: rgb(225, 237, 247);
+}
+#top #tip{
+    text-align:center;
+    font-style: italic;
+    font-size: large;
+}
+#top{
+   background-image: url(./whatsappImage.jpeg);
+   background-size: contain;
+   background-position: 100% 50%; 
+   background-repeat: no-repeat; 
+}
