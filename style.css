@@ -7,7 +7,7 @@ nav li{
     padding-right: 30px;
 }
 nav{
-    background-color: rgb(41, 131, 81);
+    background-color: rgb(181, 226, 202);
     height: 30px;
 }
 .pishi a{
@@ -15,19 +15,10 @@ nav{
     font-style: oblique;
 }
 h1{
-    text-align: center;
     font-style: oblique;
     text-shadow: 2px 2px 5px green;;
-}
-#intro h2, h3{
-    text-align: center;
-    font-style: oblique;
-    text-shadow: 2px 2px 5px green;
-}
-#intro p{
-    text-align: center;
-    font-style: italic;
-    font-size:large;
+    margin-left: 500px;
+    font-size: large;
 }
 #top {
     margin: 1px;
@@ -36,13 +27,75 @@ h1{
     background-color: rgb(225, 237, 247);
 }
 #top #tip{
-    text-align:center;
+
+    font-size: large;
+    text-align: center;
+    height: max-content;
+    font: weight 200px;
+    font-style: italic;
+}
+
+#top{
+   background-image: url(./whatsappImage2.jpeg);
+   background-position:right;
+   background-repeat:no-repeat;
+   position:relative;
+   background-attachment:scroll;
+   background-size:contain
+
+}
+#intro{
+    font-style: oblique;
+    text-align: center;
+    font-style: italic;
+
+}
+#top #order{
+    text-align: center;
+    font-style: oblique;
+    font-size: 35px;
+    color:rgb(25, 102, 54);
+    text-shadow:  2px 2px 5px green;
+    font-weight: 300;
+}
+.cogs{
+    font-weight: 200px;
+    font-style: oblique;
+    text-shadow: slategrey;
+}
+.whiskey{
+    font-weight: 200px;
+    font-style: oblique;
+    text-shadow: slategrey;
+}
+.vodka{
+    font-weight: 200px;
+    font-style: oblique;
+    text-shadow: slategrey;
+}
+.new{
+    font-weight: 200px;
+    font-style: oblique;
+    text-shadow: slategrey;
+}
+
+#whitype ul{
     font-style: italic;
     font-size: large;
+    padding-top: 5px;
+    
 }
-#top{
-   background-image: url(./whatsappImage.jpeg);
-   background-size: contain;
-   background-position: 100% 50%; 
-   background-repeat: no-repeat; 
+#whitype li{
+    padding: 3px;
+}
+#whitype{
+    background-color:  rgb(181, 226, 202);
+}
+
+.irishWh{
+    color: rgb(73, 27, 27);
+    font-style: oblique;
+}
+.irishWh img{
+    padding: 4px;
 }
