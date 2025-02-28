@@ -99,3 +99,18 @@ h1{
 .irishWh img{
     padding: 4px;
 }
+#details{
+    display: flex;
+    justify-content:space-around;
+    padding-left: 60px;
+    padding-right: 10px;
+    background-color: rgb(198, 212, 202);
+  }
+  #details >div{
+    margin: 10px;
+    margin-right: 20px;
+    width: 30;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-style: italic;
+  }
