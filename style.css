@@ -8,7 +8,8 @@ nav li{
 }
 nav{
     background-color: rgb(181, 226, 202);
-    height: 30px;
+    height: 50px;
+    font-weight: 200;
 }
 .pishi a{
     color: brown;
@@ -113,4 +114,14 @@ h1{
     padding-left: 60px;
     padding-right: 60px;
     font-style: italic;
+  }
+  #ageform{
+    width: 100%;
+                max-width: 400px;
+                background-color: #e8f5e9;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-style: italic;
+                color: rgb(77, 18, 18);
   }
