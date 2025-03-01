@@ -80,16 +80,16 @@ h1{
     text-shadow: slategrey;
 }
 
-#whitype ul{
+.whitype ul{
     font-style: italic;
     font-size: large;
     padding-top: 5px;
     
 }
-#whitype li{
+.whitype li{
     padding: 3px;
 }
-#whitype{
+.whitype{
     background-color:  rgb(181, 226, 202);
 }
 
@@ -125,3 +125,56 @@ h1{
                 font-style: italic;
                 color: rgb(77, 18, 18);
   }
+.sales{
+    background-color: rgb(114, 180, 136);
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+    height: 30px;
+    font-size: larger;
+    color: rgb(117, 37, 37);
+    background-image: url(WhatsApp Image 2025-02-27 at 8.51.30 PM.jpeg);
+}
+
+#conyagi{
+    text-align: center;
+    color: rgb(117, 37, 37);
+    font-style: italic;
+    font-weight: bold
+}
+.whitype {
+    position: relative;
+    width: 500px; 
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); 
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.overlay-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.whitype:hover .img-overlay {
+    opacity: 1;
+}
+
+.whitype img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
