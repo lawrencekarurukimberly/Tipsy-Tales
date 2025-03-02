@@ -211,3 +211,9 @@ h1{
     font-weight: bold;
     color: #333;
 }
+.vapies{
+    display: flex;
+            flex-wrap: wrap;
+            gap:5px;
+            justify-content: center;
+}
