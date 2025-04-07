@@ -1,14 +1,56 @@
 body{
-    background-color: aliceblue;
+    background-color: rgb(220, 245, 245);
 }
+.kai{
+    display:flex;
+    text-align: center;
+}
+.kai img{
+    align-items: flex;
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+    transition: transform 0.3s ease;
+
+}
+.kai img:hover {
+    transform: scale(1.1);
+}
+.kai p{
+
+    margin-top: 5px;
+    font-size: 14px;
+}
+.pop img{
+    cursor: pointer;
+        justify-content: center;
+        gap: 200px;
+        padding: 200px;
+        background-color: transparent;
+        align-items: center;
+    }
+
+    .pop img {
+        padding: 8px;
+        width: 150px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10%;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .pop img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 10px rgba(19, 17, 17, 0.3);
+    }
 nav li{
     display: inline;
     padding-left: 30px;
     padding-right: 30px;
 }
 nav{
-    background-color: rgb(181, 226, 202);
-    height: 50px;
+
+    height: 110px;
     font-weight: 200;
 }
 .pishi a{
@@ -84,7 +126,7 @@ h1{
     font-style: italic;
     font-size: large;
     padding-top: 5px;
-    
+
 }
 .whitype li{
     padding: 3px;
@@ -144,18 +186,7 @@ h1{
 }
 .whitype {
     position: relative;
-    width: 500px; 
-}
-
-.img-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7); 
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out;
+    width: 500px;
 }
 
 .overlay-text {
@@ -168,30 +199,6 @@ h1{
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
-.whitype:hover .img-overlay {
-    opacity: 1;
-}
-
-.whitype img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-
-
-.image-container {
-    position: relative;
-    width: 250px; /* Adjust as needed */
-    text-align: center;
-}
-
-.image-container img {
-    width: 100%;
-    display: block;
-}
-
 .text-overlay {
     position: absolute;
     bottom: 10px; /* Positioning from bottom */
